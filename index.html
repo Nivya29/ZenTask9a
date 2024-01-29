@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .pagination{
+        display:flex;
+        list-style:none;
+        padding:0;
+    }
+   .pagination li{
+    margin:0 5px;
+   }
+    .pagination a {
+        text-decoration: none;
+        padding: 8px 13px;
+        border: 1px solid black;
+        margin: 0 5px;
+        color: black;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+
+    .pagination a:hover {
+        background-color: rgb(214, 32, 175);
+        color: darkgreen;
+    }
+</style>
+</head>
+<body>
+<h1 class="one">Pagination</h1>
+<div id="pagination-container"></div>
+
+<script src="./script.js"></script>
+</body>
+</html>
